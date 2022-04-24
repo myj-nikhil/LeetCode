@@ -7,6 +7,6 @@ class Solution {
                 }
         }
     }
- throw new IllegalArgumentException();
+return null;
 }
 }
