@@ -7,6 +7,6 @@ class Solution {
             else even++;
         }
         if(odd>even) return even;
-        else return odd;
+        return odd;
     }
 }
