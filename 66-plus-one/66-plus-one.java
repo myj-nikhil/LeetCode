@@ -10,7 +10,7 @@ class Solution {
                 return a;
             }
             else{
-                a[n-1-i]=a[n-1-i] -9;
+                a[n-1-i]-=9;
             }
         }
         if(a[0]==0){
