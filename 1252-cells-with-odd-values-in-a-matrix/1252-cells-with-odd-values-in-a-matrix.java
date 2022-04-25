@@ -15,7 +15,7 @@ class Solution {
         }
         for(int i=0; i<m;i++){
             for(int j=0;j<n;j++){
-                if(mat[i][j]%2!=0) ans++;
+                if(mat[i][j]%2!=0) ans+=1;
             }
         }
         return ans;
