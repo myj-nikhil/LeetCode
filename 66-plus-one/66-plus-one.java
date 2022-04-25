@@ -4,7 +4,7 @@ class Solution {
         // int carry =1;
         int[] newa = new int[n+1];
         for(int i=0;i<n;i++) {
-            if(a[n-1-i]+1 < 10) {
+            if(a[n-1-i] < 9) {
                 a[n-1-i] ++;
                 // System.out.println("i = " +i);
                 return a;
