@@ -5,7 +5,7 @@ class Solution {
         int[] newa = new int[n+1];
         for(int i=0;i<n;i++) {
             if(a[n-1-i]+1 < 10) {
-                a[n-1-i] +=1;
+                a[n-1-i] ++;
                 // System.out.println("i = " +i);
                 return a;
             }
